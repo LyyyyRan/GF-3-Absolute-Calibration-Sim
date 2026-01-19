@@ -14,7 +14,7 @@ from np2mtlb import nextpow2, FFT_Range, FFT_Azimuth, FFTShift, apostrophe, poin
 from utils import img2View, rad2deg, mag2db
 
 # load Focused Image:
-RCS = 90
+RCS = 200
 mat_path = 'Origin_Focused_IMG_RCS_{}_{}_{}.mat'.format(RCS, RCS, RCS)[:-4]
 Focused_IMG = loadmat(mat_path + '.mat')['Origin_Focused_IMG']
 
